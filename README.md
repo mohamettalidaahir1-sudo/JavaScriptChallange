@@ -2,4 +2,6 @@ The reason i make this repo is to perform my JavaScript Skill on practicing now 
 
  First challenge Committed  https://roadmap.sh/projects/js-greeting-builder 
 
-Level: Beginner challenge:2 https://roadmap.sh/projects/js-temperature-converter
+Level: Beginner challenge:1 https://roadmap.sh/projects/js-temperature-converter
+Level: Beginner challenge:2 https://roadmap.sh/projects/js-number-checker
+
