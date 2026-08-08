@@ -7,3 +7,4 @@ Level: Beginner challenge:2 https://roadmap.sh/projects/js-number-checker
 Level: Beginner challenge:3 https://roadmap.sh/projects/js-string-formatter
 Level: Beginner challenge:4 https://roadmap.sh/projects/js-price-calculator
 Level: Beginner challenge:5 https://roadmap.sh/projects/js-cart-total-calculator
+Level: Beginner challenge:6 https://roadmap.sh/projects/js-grade-report-generator
