@@ -9,3 +9,4 @@ Level: Beginner challenge:4 https://roadmap.sh/projects/js-price-calculator
 Level: Beginner challenge:5 https://roadmap.sh/projects/js-cart-total-calculator
 Level: Beginner challenge:6 https://roadmap.sh/projects/js-grade-report-generator
 Level: Beginner challenge:7 https://roadmap.sh/projects/js-task-list-utilities
+Level: Beginner challenge:8 https://roadmap.sh/projects/js-expense-summary
