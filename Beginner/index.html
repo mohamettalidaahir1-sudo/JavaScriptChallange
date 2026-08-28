@@ -19,91 +19,12 @@
         font-size: 5rem;
         letter-spacing: 10px;
     }
-
-    .search {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        width: 450px;
-    }
-
-    input {
-        width: 100%;
-        border: none;
-        padding: 12px 13px;
-        border-radius: 16px;
-        outline: none;
-    }
-
-    button {
-        width: 100%;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        gap: 6px;
-        color: black;
-        background: yellow;
-        border: none;
-        padding: 12px 8px;
-        border-radius: 12px;
-    }
-
-    .tb {
-        width: 100%;
-        background: #f9f9f9;
-    }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    thead {
-        background: #f4f4f4;
-        color: #333;
-    }
-
-    th {
-        text-align: left;
-        padding: 12px;
-        border-bottom: 2px solid #ddd;
-    }
-
-    tbody {
-        background: #ffffff;
-    }
-
-    td {
-        padding: 12px;
-        border-bottom: 2px solid #ddd;
-
-    }
 </style>
 
 <body>
     <div class="container">
         <h1>Product Search and Filter</h1>
-        <div class="search">
-            <input type="text" id="search">
-            <button id="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-search" viewBox="0 0 16 16">
-                    <path
-                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                </svg>Search</button>
-        </div>
 
-        <div class="tb">
-            <table>
-                <thead>
-                    <th>Product</th>
-                    <th>Category</th>
-                    <th>Price</th>
-                    <th>inStock</th>
-                </thead>
-                <tbody id="tbody"></tbody>
-            </table>
-        </div>
     </div>
     <script src="app.js"></script>
 </body>
