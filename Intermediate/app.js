@@ -99,8 +99,9 @@ const showQuestion = () => {
 
 }
 
-const selectAnswer = () => {
+const selectAnswer = (event) => {
     if (answersDisabled) return
+    answersDisabled = true
     const selectedButton = event.target
     const isCorrect = selectedButton.dataset.correct === "true"
     Array.from(answersContainer.children).forEach(button => {
