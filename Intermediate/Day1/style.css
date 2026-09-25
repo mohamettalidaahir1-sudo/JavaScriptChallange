@@ -49,8 +49,8 @@ p {
 .colors {
     display: flex;
     background: #f9f9f9;
-    width: 90px;
-    height: 150px;
+    width: 80px;
+    height: 120px;
 }
 
 .color-con {
@@ -58,13 +58,34 @@ p {
     flex-direction: column;
     gap: 6px;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
 }
 
 #hexNum {
-    color: #555;
+    color: #333;
     font-size: 20px;
     font-weight: 500;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    gap: 6px;
+}
+
+i {
+    color: #004488;
+    cursor: copy
+}
+
+i:active {
+    transform: translateY(-1px);
+}
+
+i:hover {
+    color: #9BC7FD;
 }
 
 button {
