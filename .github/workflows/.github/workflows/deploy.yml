@@ -1,0 +1,35 @@
+
+name: Deploy QuizApp
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+
+    steps:
+      - name: Get my code
+        uses: actions/checkout@v4
+
+      - name: Prepare Pages
+        uses: actions/configure-pages@v5
+
+      - name: Select QuizApp folder
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: Intermediate/QuizApp
+
+      - name: Publish website
+        uses: actions/deploy-pages@v4
